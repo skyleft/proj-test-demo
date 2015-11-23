@@ -69,6 +69,8 @@
 
 * 对于需要登陆才能正常请求的接口测试，可以使用响应的浏览器工具拿到cookie，然后直接在mockmvc请求时附加这些cookie即可，也可以直接在接口的before里执行mock登陆
 
+
+* Assert有好多，最好用这个 *org.junit.Assert*
     
 ### 使用Spring MVC的项目
 
